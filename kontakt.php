@@ -12,7 +12,6 @@
 	error_reporting(E_ALL);
 	ini.set('display_errors', 1);
 	}
-	echo($imiee);
 	?>
 <p>Ogolne informacje o kontakcie itp.</p>
 <p>Dzial wyslania wiadomosci</p>

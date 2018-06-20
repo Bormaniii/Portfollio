@@ -7,25 +7,37 @@
 </head>
 <body>
 
+
+
+
+<div>
+<img  class="malpa" src="1.png" name="malpa" alt="Monkey" width="100%" height="auto" />
+<img  class="malpa" src="napisy.png" name="napisy" alt="Napisy" usemap="#mapa" width="100%" height="auto" />
 <map name="mapa">
 <a href="#" onmouseover="document.images['malpa'].src='1.png'">
-<area shape="rect" coords="478,316,554,365" href="info.html" name="info" alt="znacznik1" title="Informacje">
+<area shape="poly" coords="478,315,559,313,559,364,471,360" href="info.html" name="info" alt="znacznik1" title="Informacje">
 </a>
 <a href="#" onmouseover="document.images['malpa'].src='2.png'">
-<area shape="rect" coords="613,490,721,542" href="dziela.html" name="dziela" alt="znacznik2" title="dziela">
+<area shape="poly" coords="614,490,615,537,719,541,720,499" href="dziela.html" name="dziela" alt="znacznik2" title="dziela">
 </a>
 <a href="#" onmouseover="document.images['malpa'].src='3.png'">
-<area shape="rect" coords="956,286,1114,332" href="kontakt.php" name="kont" alt="znacznik3" title="kontakt">
+<area shape="poly" coords="955,280,955,334,1116,334,1116,282" href="kontakt.php" name="kont" alt="znacznik3" title="kontakt">
 </a>
 </map>
+</div>
 
-
-<img  class="malpa" src="1.png" name="malpa" alt="Monkey" />
-<img  class="malpa" src="napisy.png" name="napisy" alt="Napisy" usemap="#mapa" />
 
 <img  class="banany" src="banany.png" name="banany" alt="Banany" width="100%" />
-<img class="prawy" src="bananyprawy.png" name="prog" alt="pr" height="40%" />
-<img class="lewy" src="bananylewy.png" name="lrog" alt="lr" height="40%" />
+<img class="prawy" src="bananyprawy.png" name="prog" alt="pr" height="20%" />
+<img class="lewy" src="bananylewy.png" name="lrog" alt="lr" height="20%" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="image-map.js"></script>
+<script>
+imageMapResize();
+</script>
+
+
 
 
 </body>
