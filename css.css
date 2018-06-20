@@ -1,0 +1,27 @@
+body{
+	background-color: rgb(255, 255, 204);;
+}
+img.banany{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+img.malpa{
+	position: absolute;
+	top: 0;	
+	left: 0;
+	z-index: 1;
+}
+img.prawy{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+img.lewy{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
