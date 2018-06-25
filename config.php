@@ -1,8 +1,7 @@
-<?php 
-echo("kupa");
-$NazwaSerwera = "localhost"; 
-$Uzytkownik = "root"; 
-$Haslo = "root"; 
-$BazaDanych = "uzytkownicy"; 
-$conn = mysqli_connect($NazwaSerwera, $Uzytkownik);
+<?php
+$nazwaSerwera = "localhost"; 
+$uzytkownik = "root"; 
+$haslo = ""; 
+$bazaDanych = "uzytkownicy"; 
+$conn = mysqli_connect($nazwaSerwera, $uzytkownik, $haslo, $bazaDanych); 
 ?>
