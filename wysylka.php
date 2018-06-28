@@ -26,8 +26,8 @@ if(isset($_POST['imie']) && isset($_POST['mail']) && isset($_POST['wiadomosc']) 
 	
 	
 	//dodaje wiadomosc do bazy danych
-	$ins = "INSERT INTO uzytkownicy (imie,wiadomosc,adresat,mail) 
-	VALUES ('$imie_klienta','$wiadomosc_klienta','$do_kogo','$mail_klienta')";
+	$ins = "INSERT INTO $do_kogo (imie,wiadomosc,mail) 
+	VALUES ('$imie_klienta','$wiadomosc_klienta','$mail_klienta')";
 	$wysyla = mysqli_query($conn,$ins);
 	
 	if (!$wysyla){

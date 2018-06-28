@@ -1,7 +1,7 @@
 <?php
-$nazwaSerwera = "localhost"; 
-$uzytkownik = "root"; 
-$haslo = ""; 
-$bazaDanych = "uzytkownicy"; 
+$nazwaSerwera = "********"; 
+$uzytkownik = "******"; 
+$haslo = "*******"; 
+$bazaDanych = "*******"; 
 $conn = mysqli_connect($nazwaSerwera, $uzytkownik, $haslo, $bazaDanych); 
 ?>

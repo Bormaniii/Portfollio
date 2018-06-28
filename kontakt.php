@@ -11,7 +11,7 @@
 	if(!$conn){
 		echo("kupa");
 	error_reporting(E_ALL);
-	ini.set('display_errors', 1);
+	ini_set('display_errors', 1);
 	}
 	$sql = 'SELECT Imie FROM administratorzy'; 
 	$admini = mysqli_query($conn,$sql);
